@@ -1,0 +1,99 @@
+/*Home Page*/
+.landingPage {
+  background-image: url("../img/landingPage.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.landing{
+  color:white;
+  font-family: 'Inconsolata', monospace;
+  margin: 0;
+  font-weight:bold;
+}
+.landing h1 {
+  padding-left:0px;
+  font-family: 'Inconsolata', monospace;
+}
+.landing h2 {
+  padding-left:0px;
+  margin-left:0px;
+  font-size:1.8em;
+  font-family: 'Inconsolata', monospace;
+  background: none;
+  font-weight: bold;
+}
+
+/*Styles for every page*/
+
+/*Library*/
+#personalPicture {
+    width: 200px;
+}
+
+.bookList {
+  min-height:500px;
+  text-align:center;
+  background:white;
+  box-sizing:border-box;
+  padding:0px;
+}
+
+/*CSS for each book added to bookshelf*/
+.book {
+  padding: 5px 8px;
+  display: inline-block;
+  max-width: 175px;
+  margin: auto;
+}
+.wrapper {
+    box-sizing: border-box;
+    width: 95%;
+    margin: 15px auto;
+    text-align: center
+}
+.bookTitle {
+    margin: 2px;
+    font-weight: bold;
+    color: #52565e;
+}
+.bookImage{
+  width:130px;
+}
+.bookImage:hover{
+  cursor:pointer;
+}
+#panel {
+  background: #727882;
+  border-color: #727882;
+}
+#panelPrimary {
+  border-color: #727882;
+}
+#editLink {
+  float: right;
+  text-decoration: underline;
+}
+#editLink:hover{
+  cursor:pointer;
+}
+#personalInfo{
+  margin-top:5px;
+  color:#52565e;
+}
+#addButton{
+  background:rgb(255, 64, 129);
+}
+
+/* Discussions */
+#userMessage, #discName {
+  text-align: center;
+  box-shadow: none;
+}
+#chatName {
+  box-shadow: none;
+}
+
+/*Discover*/
+.discover{
+  min-height:420px;
+}

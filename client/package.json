@@ -1,0 +1,30 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "auth0-js": "^8.10.1",
+    "axios": "^0.16.2",
+    "bootstrap": "^3.3.7",
+    "firebase": "^4.5.0",
+    "history": "^4.7.2",
+    "material-ui": "^0.19.3",
+    "moment": "^2.18.1",
+    "mysql2": "^1.4.2",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^16.0.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.0.14",
+    "react-tap-event-plugin": "^3.0.2",
+    "sequelize": "^4.13.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5001"
+}
